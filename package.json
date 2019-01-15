@@ -1,0 +1,27 @@
+{
+  "name": "bot_messenger_platzi",
+  "version": "1.0.0",
+  "description": "Bot para contestar preguntas en messenger",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autvincere/PugPizza.git"
+  },
+  "author": "eduardo palma <aut.vincere@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/autvincere/PugPizza/issues"
+  },
+  "homepage": "https://github.com/autvincere/PugPizza#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
