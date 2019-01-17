@@ -1,0 +1,13 @@
+curl -X POST -H "Content-Type: application/json" -d '{
+"greeting": [
+{
+  "locale": "default",
+  "text": "Hola {{user_first_name}} soy Chewiekie y atiendo PugPizza te invito a conocer nuestras geniales 🐶 PugPizzas 🍕.!"
+}, 
+{
+  "locale": "en_US",
+  "text": "Hello {{user_first_name}} soy Chewiekie y atiendo PugPizza te invito a conocer nuestras geniales 🐶 PugPizzas 🍕.!"
+}
+]
+}
+' "https://graph.facebook.com/v2.6/me/messenger_profile?access_token=EAAEwCIsMWcwBAAK0bL7EdGWPYkRXP4VmEun809Jp0EdtURqwJRPLI8OJbUln0Yr70ZB6QW7oeoeqEwHXzU4meO5rbcyzTmKE7uyecs8A84CzaRQbqn168OMDknevxHl0jaDumARRMdXcqzYZARLSxitrGKKZCg5ZCKBjsoZBpZAgZDZD"
